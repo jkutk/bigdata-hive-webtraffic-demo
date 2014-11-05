@@ -6,4 +6,5 @@ tto string)
 comment 'Traffic Table' 
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
 STORED AS TEXTFILE;
-location '/user/hue/web-traffic/csv/sample.csv';
+
+load data inpath '/user/hue/web-traffic/csv/sample.csv' into table traffic; 
