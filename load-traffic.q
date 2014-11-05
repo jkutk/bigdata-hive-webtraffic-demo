@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS traffic
 (tcount int,
-tfrom string,
 tt bigint,
+tfrom string,
 tto string) 
 comment 'Traffic Table' 
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
