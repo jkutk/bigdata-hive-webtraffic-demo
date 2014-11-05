@@ -1,3 +1,4 @@
+insert overwrite directory '/user/hue/out'
 select sum(tcount) as sumcount, tfrom
 from traffic
 group by tfrom
