@@ -1,4 +1,4 @@
-insert overwrite directory '/user/hue/out'
+insert overwrite directory '/user/hue/out/hive-demo'
 select sum(tcount) as sumcount, tfrom
 from traffic
 group by tfrom
